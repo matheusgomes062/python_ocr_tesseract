@@ -1,6 +1,8 @@
 import os
 from PIL import Image
 
+# Ajuda a criar os arquivos .gt.txt e os arquivos .tif
+
 w = r'/home/matheus/Downloads/by_write/hsf_0/f0000_14/jj'
 a = os.listdir(r'/home/matheus/Downloads/by_write/hsf_0/f0000_14/jj')
 a.sort()
