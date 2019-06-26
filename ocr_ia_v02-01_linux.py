@@ -5,6 +5,7 @@ import numpy as np
 from PIL import Image
 import pytesseract
 
+# Primeira ideia de código para utilizar o tesseract, após esse método não se mostrar tão eficiente o trabalho foi desenvolvido no próprio tesseract com o auxílio do OCR-D
 
 # lê e reduz a imagem
 img = cv2.pyrDown(cv2.imread('eng.font.exp0.jpg'))
